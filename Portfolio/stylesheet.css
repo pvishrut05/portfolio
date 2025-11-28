@@ -277,7 +277,14 @@ body.dark .social-sidebar a {
   
 .social-sidebar a:hover {
     transform: scale(1.1);
-  }
+}
+
+body:not(.dark) .social-sidebar img{
+ width: 1rem;
+  height: 1rem;
+  pointer-events: none;
+}
+
   
 .social-sidebar img {
     width: 1rem;
