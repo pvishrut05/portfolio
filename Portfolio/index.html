@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vishrut's Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+  <link rel="icon" href="images/favicon.ico" />
+</head>
+<body class="light">
+  <nav>
+    <ul class="navbar">
+      <li><a>‎ </a></li>
+    </ul>
+
+    <button id="mode-toggle" aria-label="Toggle Theme" style="width: 32px; height: 32px;">
+      <div class="icon-wrapper">
+        <img id="sun-icon" class="mode-icon" src="images/sun.svg" alt="Sun Icon" style="opacity: 1;" />
+        <img id="moon-icon" class="mode-icon" src="images/moon.svg" alt="Moon Icon" style="opacity: 0;" />
+      </div>
+    </button>
+  </nav>
+
+  <section class="intro full-screen">
+    <div class="name-highlight-wrapper">
+      <span class="highlight-bg"></span>
+      <h1>I'm Vishrut</h1>
+    </div>
+    <p class="typing">a developer.</p>
+  </section>
+
+
+
+  <section id="about" class="about">
+    <div class="highlight-wrapper">
+      <span class="avatar-highlight-bg"></span>
+      <div class="about-flex">
+        <div class="about-icon">
+          <img id="avatar-icon"
+            src="images/happyIcon.svg"
+            alt="Happy Avatar"
+            class="avatar-icon"
+            data-wink="images/winkIcon.svg"
+          />
+        </div>
+        <div class="about-left">
+          <p>
+            <span class="letter">H</span>ello! I'm an undergraduate Computer Science and Finance student based in Chicago, Illinois. I'm passionate about building software that solves real-world problems and constantly seek opportunities to learn, grow, and make new connections.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2 class="section-title-left">Skills</h2>
+    <div class="skill-boxes">
+      <div class="skill">
+        <img src="images/cpp.svg" alt="C++" class="skill-icon" />
+        <span>C++</span>
+      </div>
+      <div class="skill">
+        <img src="images/python.svg" alt="Python" class="skill-icon" />
+        <span>Python</span>
+      </div>
+      <div class="skill">
+        <img src="images/java.svg" alt="Java" class="skill-icon" />
+        <span>Java</span>
+      </div>
+      <div class="skill">
+        <img src="images/swift.svg" alt="Swift" class="skill-icon" />
+        <span>Swift</span>
+      </div>
+      <div class="skill">
+        <img src="images/html.svg" alt="HTML" class="skill-icon" />
+        <span>HTML</span>
+      </div>
+      <div class="skill">
+        <img src="images/css.svg" alt="CSS" class="skill-icon" />
+        <span>CSS</span>
+      </div>
+      <div class="skill">
+        <img src="images/js.svg" alt="JavaScript" class="skill-icon" />
+        <span>JavaScript</span>
+      </div>
+      <div class="skill">
+        <img src="images/react.svg" alt="React" class="skill-icon" />
+        <span>React</span>
+      </div>
+      <div class="skill">
+        <img src="images/sql.png" alt="SQL" class="skill-icon"/>
+        <span>SQL</span>
+      </div>
+      <div class="skill">
+        <img src="images/node-js.jpg" alt="node.js" class="skill-icon"/>
+        <span>Node.js</span>
+      </div>
+      <div class="skill">
+        <img src="images/Typescript.png" alt="Typescript" class="skill-icon"/>
+        <span>Typescript</span>
+      </div>
+      <div class="skill">
+        <img src="images/ML.png" alt="ML" class="skill-icon"/>
+        <span>Machine Learning</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="experience">
+    <h2 class="section-title-left">Projects</h2>
+    <!-- UNIMATCHA -->
+    <div class="project-box">
+      <div class="project-header">
+        <h3 class="project-title">UniMatcha</h3>
+        <!-- <a href="https://github.com/lxnat26/YumNote" target="_blank" class="project-link">
+          <img class="gitlink" src="images/githubLight.svg" alt="GitHub Icon" />
+        </a> -->
+      </div>
+      <div class="project-tags">html, css, javascript, mongodb, express.js, react, node.js, chart.js</div>
+        <div class="project-description">
+          UniMatcha is a custom web app built for a client's matcha business, featuring user login, drink customization, pickup scheduling, payment handling, and a lightweight admin dashboard for order management.
+        </div>
+    </div>
+
+    <!-- YUMNOTE -->
+    <div class="project-box">
+      <div class="project-header">
+        <h3 class="project-title">YumNote</h3>
+        <a href="https://github.com/lxnat26/YumNote" target="_blank" class="project-link">
+          <img class="gitlink" src="images/githubLight.svg" alt="GitHub Icon" />
+        </a>
+      </div>
+      <div class="project-tags">swift, swiftui, firebase</div>
+        <div class="project-description">
+          YumNote is a personalized iOS app for foodies to save and review restaurant experiences, and share them with others.
+        </div>
+    </div>
+
+    <!-- PROSPERITY -->
+    <div class="project-box">
+      <div class="project-header">
+        <h3 class="project-title">Prosperity</h3>
+        <a href="https://github.com/itsjay0730/Prosperity" target="_blank" class="project-link">
+          <img class="gitlink" src="images/githubLight.svg" alt="GitHub Icon" />
+        </a>
+      </div>
+      <div class="project-tags">swift, swiftui, mapkit, corelocation, firebase</div>
+        <div class="project-description">
+          Prosperity is a wellness-focused iOS app that lets users pin and share meaningful self-care locations on a map, combining live location, look-around previews, and a personalized explore feed to encourage growth and mindfulness.
+        </div>
+    </div>
+  </section>
+
+  <div class="social-sidebar">
+    <div class="social-sidebar">
+        <a href="https://github.com/itsjay0730" target="_blank">
+          <img
+            class="theme-icon"
+            src="images/githubLight.svg"
+            data-light="images/githubLight.svg"
+            data-dark="images/githubDark.svg"
+            alt="GitHub"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/vishrut-patel-pv05/" target="_blank">
+          <img
+            class="theme-icon"
+            src="images/linkedinLight.svg"
+            data-light="images/linkedinLight.svg"
+            data-dark="images/linkedinDark.svg"
+            alt="LinkedIn"
+          />
+        </a>
+        <a href="mailto:pvishrut05@gmail.com" target="_blank">
+            <img
+              class="theme-icon"
+              src="images/mailLight.svg"
+              data-light="images/mailLight.svg"
+              data-dark="images/mailDark.svg"
+              alt="Gmail"
+            />
+          </a>
+        <a href="images/Vishrut Patel.pdf" target="_blank" rel="noopener">
+          <img
+            class="theme-icon"
+            src="images/resumeLight.svg"
+            data-light="images/resumeLight.svg"
+            data-dark="images/resumeDark.svg"
+            alt="Resume"
+          />
+        </a>
+      </div>
+  </div>
+
+  <canvas id="bg-canvas"></canvas>
+  <div id="cursor-glow"></div>
+  <script src="script.js"></script>
+</body>
+</html>
